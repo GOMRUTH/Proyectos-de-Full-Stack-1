@@ -1,0 +1,69 @@
+.ContornoPrincipal {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em;
+    text-align: center;
+  }
+  
+  .BannerLogo {
+    text-align: center;
+    margin: 0 auto;
+    padding: 1em 0;
+    background-color: #d8bfd8;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .BannerLogo img {
+    width: 100%;
+    max-width: 900px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .OpcionesMenu {
+    display: inline-block;
+    margin: 1em 0;
+    text-align: left;
+    background-color: #d8bfd8;
+    border-radius: 4px;
+  }
+  
+  .OpcionesMenu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .OpcionesMenu li {
+    margin: 0 0.5em;
+    padding: 0.5em 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .OpcionesMenu a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .ContornoPrincipal {
+      padding: 1em;
+    }
+  
+    .BannerLogo img {
+      max-width: 200px;
+    }
+  
+    .OpcionesMenu li {
+      padding: 0.5em;
+    }
+  }
